@@ -1,0 +1,11 @@
+{
+  "description": "Against the far wall sits a small safe with a ten-digit keypad. You notice the ‘9’ key is worn smooth, and two other keys are scuffed.",
+  "commands": {
+    "look":             "description",
+    "examine side":     "You inspect the side of the safe. Its surface is etched with: est 1995. It could be when the safe was manufactured, it could be something else",
+    "enter code":       "Enter a four-digit code: 0-9, e.g. \"enter code 1234\".",
+    "take crystal":     "You need to open the safe first by entering the correct code.",
+    "go back":          "master-suite.json",
+    "help":             "Available commands: look, examine module, enter code <####>, take crystal, go back"
+  }
+}
