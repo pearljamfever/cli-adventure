@@ -1,0 +1,11 @@
+{
+  "description": "You stand in the grand foyer of the mansion. Faded portraits line the walls, and a chandelier hangs overhead. Exits lie to the north, west, east, and south.",
+  "commands": {
+    "look":       "description",
+    "go north":   "hallway.json",
+    "go west":    "dining-room.json",
+    "go east":    "guest-bedroom-3.json",
+    "go south":   "gallery.json",
+    "help":       "Displays available commands"
+  }
+}

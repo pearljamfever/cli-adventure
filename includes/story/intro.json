@@ -1,0 +1,8 @@
+{
+  "description": "A distant thunderclap rumbles as you regain consciousness. Your head throbs, and darkness clings to the edges of your vision. As your eyes adjust, you realize you stand in the grand foyer of a decaying mansion. Faded portraits line the walls, and a chandelier sways overhead, though no breeze stirs.",
+  "commands": {
+    "look":        "description",
+    "start":       "foyer.json",
+    "help":        "Type 'start' to enter the mansion and explore."
+  }
+}

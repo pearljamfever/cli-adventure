@@ -1,0 +1,10 @@
+{
+  "description": "Guest Bedroom 3: dusty velvet drapes and a partially open wardrobe. Exits lie to the north, west, and south.",
+  "commands": {
+    "look":      "description",
+    "go north":  "guest-bedroom-2.json",
+    "go west":   "foyer.json",
+    "go south":  "guest-bedroom-4.json",
+    "help":      "Displays available commands"
+  }
+}

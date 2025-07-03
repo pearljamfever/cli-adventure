@@ -1,0 +1,10 @@
+{
+  "description": "You enter the grand library. Shelves packed with dusty tomes stretch as far as you can see. A heavy silence pervades the room, broken only by the soft creak of the floor under your feet. You notice one bookshelf with a slightly protruding panel. Exits lie to the north and down.",
+  "commands": {
+    "look":         "description",
+    "go north":     "ballroom.json",
+    "go down":      "basement.json",
+    "open panel":   "secret-lab.json",
+    "help":         "Displays available commands"
+  }
+}

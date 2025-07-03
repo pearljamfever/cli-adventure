@@ -1,0 +1,11 @@
+{
+  "description": "You enter the kitchen, where broken pots and pans lie scattered. The smell of rot hangs thick in the air. Exits lie to the north, east, and south.",
+  "commands": {
+    "look":      "description",
+    "go north":  "servants-quarters.json",
+    "go east":   "hallway.json",
+    "go south":  "dining-room.json",
+    "go down":   "basement.json",
+    "help":      "Displays available commands"
+  }
+}

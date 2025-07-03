@@ -1,0 +1,9 @@
+{
+  "description": "You climb into the dusty attic. Slanted rafters stretch overhead, tangled in thick cobwebs. Old trunks and forgotten heirlooms lie scattered across the creaking floorboards. The only way back is via a sturdy ladder leading down to the Master Suite.",
+  "commands": {
+    "look":       "description",
+    "search":     "You rummage through the trunks and uncover a tarnished silver hard drive. It's heavy, bulky, warm. A faint hum resonates from within its spindle bearing, and astonishingly, it spins steadily on its own, as though powered by an unseen mechanism.",
+    "go down":    "master-suite.json",
+    "help":       "Displays available commands"
+  }
+}

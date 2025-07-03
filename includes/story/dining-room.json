@@ -1,0 +1,10 @@
+{
+  "description": "The dining room table is set for a feast long since spoiled. Dusty goblets line the tarnished silverware. Exits lie to the north, east, and south.",
+  "commands": {
+    "look":      "description",
+    "go north":  "kitchen.json",
+    "go east":   "foyer.json",
+    "go south":  "ballroom.json",
+    "help":      "Displays available commands"
+  }
+}

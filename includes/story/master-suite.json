@@ -1,0 +1,12 @@
+{
+  "description": "This is the Master Suite—once lavish, now in decay. A massive four-poster bed sits draped in dusty curtains, and a cracked mirror reflects your distorted image. Exits lie to the west, east, and up.",
+  "commands": {
+    "look":       "description",
+    "search":     "safe.json",
+    "go west":    "servants-quarters.json",
+    "go east":    "guest-bedroom-1.json",
+    "go south":   "hallway.json",
+    "go up":      "attic.json",
+    "help":       "Displays available commands"
+  }
+}

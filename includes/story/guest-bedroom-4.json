@@ -1,0 +1,11 @@
+{
+  "show_on_enter": false,
+  "ascii_art":    "wallpaper-cables.txt",
+  "description":  "Guest Bedroom 4: dimly lit, wallpaper peels in long strips. Exits lie to the north and west.",
+  "commands": {
+    "look":      "description",
+    "go north":  "guest-bedroom-3.json",
+    "go west":   "gallery.json",
+    "help":      "Displays available commands"
+  }
+}

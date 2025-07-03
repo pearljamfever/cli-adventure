@@ -1,0 +1,12 @@
+{
+  "show_on_enter": false,
+  "ascii_art":    "binary-floor.txt",
+  "description":  "The ballroom’s grand windows are long shattered, and moonlight casts eerie shadows across the cracked dance floor. If you look closely, the tiles form a repeating pattern of 1’s and 0’s. Exits lie to the north, east, and south.",
+  "commands": {
+    "look":      "description",
+    "go north":  "dining-room.json",
+    "go east":   "gallery.json",
+    "go south":  "library.json",
+    "help":      "Displays available commands"
+  }
+}

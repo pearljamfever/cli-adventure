@@ -1,0 +1,9 @@
+{
+  "description": "Guest Bedroom 1: a single bed with moth-eaten linens. Exits lie to the west and south.",
+  "commands": {
+    "look":      "description",
+    "go west":   "master-suite.json",
+    "go south":  "guest-bedroom-2.json",
+    "help":      "Displays available commands"
+  }
+}

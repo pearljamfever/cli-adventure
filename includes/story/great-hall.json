@@ -1,0 +1,10 @@
+{
+  "description": "You step into the Great Hall. A lofty ceiling soars overhead, and tattered banners hang limp from the walls. To the south is the hallway you came from. To the west lies the dining room; to the east, the ballroom stretches into shadow.",
+  "commands": {
+    "look":      "description",
+    "go south":  "hallway.json",
+    "go west":   "dining-room.json",
+    "go east":   "ballroom.json",
+    "help":      "Displays available commands"
+  }
+}

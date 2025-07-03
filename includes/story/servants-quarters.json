@@ -1,0 +1,9 @@
+{
+  "description": "You slip into a cramped corridor of servant’s quarters. The narrow hallway smells faintly of soap and mildew. Exits lie to the east and south.",
+  "commands": {
+    "look":      "description",
+    "go east":   "master-suite.json",
+    "go south":  "kitchen.json",
+    "help":      "Displays available commands"
+  }
+}

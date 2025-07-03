@@ -1,0 +1,9 @@
+{
+  "description": "You descend into the cold, damp basement. Wine racks line one wall, and pipes overhead drip steadily. Exits lie only to the north.",
+  "commands": {
+    "look":     "description",
+    "go up library": "library.json",
+    "go up kitchen": "kitchen.json",
+    "help":     "Displays available commands"
+  }
+}

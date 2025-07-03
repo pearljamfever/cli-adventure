@@ -1,0 +1,11 @@
+{
+  "description": "The hallway stretches into darkness, lit only by a handful of sputtering wall sconces. Doors stand closed to your north, west, and east.",
+  "commands": {
+    "look":       "description",
+    "go north":   "master-suite.json",
+    "go west":    "kitchen.json",
+    "go east":    "guest-bedroom-2.json",
+    "go south":   "foyer.json",
+    "help":       "Displays available commands"
+  }
+}

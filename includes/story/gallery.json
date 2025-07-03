@@ -1,0 +1,12 @@
+{
+  "show_on_enter": false,
+  "ascii_art":    "portrait-error.txt",
+  "description":  "You step into the portrait gallery. Faded paintings line the walls, their subjects’ eyes seeming to follow you. One portrait in particular bears an odd red code stamped in the corner, like a system error. Exits lie to the north, west, and east.",
+  "commands": {
+    "look":      "description",
+    "go north":  "foyer.json",
+    "go west":   "ballroom.json",
+    "go east":   "guest-bedroom-4.json",
+    "help":      "Displays available commands"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "description": "Guest Bedroom 2: a heavy drape covers the window, and a small desk stands in the corner. Exits lie to the north, west, and south.",
+  "commands": {
+    "look":      "description",
+    "go north":  "guest-bedroom-1.json",
+    "go west":   "hallway.json",
+    "go south":  "guest-bedroom-3.json",
+    "help":      "Displays available commands"
+  }
+}
