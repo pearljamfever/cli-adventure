@@ -1,0 +1,46 @@
+/* assets/css/terminal.css */
+
+/* 1) Load custom pixel font */
+@font-face {
+  font-family: 'DogicaPixel';
+  src: url('../fonts/dogicapixel.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 2) CLI Adventure Terminal container */
+#cli-adventure-terminal {
+  background: #000;
+  padding: 1em;
+  height: 750px;
+  max-height: 90vh;
+  width: 80vw;
+  max-width: 1200px;
+  overflow-y: auto;
+  overflow-x: hidden; /* lock horizontal scroll */
+}
+
+/* 3) Inner terminal wrapper */
+#cli-adventure-terminal .terminal {
+  background: #000 !important;
+  overflow-x: hidden; /* prevent inner horizontal overflow */
+}
+
+/* 4) Force custom font & color on all terminal text elements */
+#cli-adventure-terminal,
+#cli-adventure-terminal * {
+  font-family: 'DogicaPixel', monospace !important;
+  color: #FFE240 !important;
+}
+
+/* 5) Preserve whitespace for ASCII art and map */
+#cli-adventure-terminal .cmd-line,
+#cli-adventure-terminal .terminal-output,
+#cli-adventure-terminal .terminal-output pre {
+  /* Wrap text to prevent overflow */
+  white-space: pre-wrap !important;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow-x: hidden;
+}
+
